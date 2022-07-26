@@ -200,7 +200,6 @@ def main():
         clock.tick(1000)
 
 def check_bound(rct, scr_rct):
-    global life
     yoko, tate = +1, +1 # 領域内
     if rct.left < scr_rct.left or scr_rct.right  < rct.right :
         yoko = -1 # 領域外
